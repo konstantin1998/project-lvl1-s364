@@ -1,3 +1,3 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 
-console.log('Welcome to brain games')
+console.log('Welcome to brain games');

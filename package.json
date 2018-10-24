@@ -1,27 +1,31 @@
-
 {
   "name": "konstantin_first_js",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "my first project on hexlet",
+  "main": "dist/index.js",
   "scripts": {
-    "babel-node":"babel-node",
+    "babel-node": "babel-node",
     "test": "console.log('brain-games')",
-    "build":"NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prepublishOnly": "npm run build"
   },
   "bin": {
-     "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js"
   },
-  "files":[
-     "dist"
+  "files": [
+    "dist"
   ],
-  "author": "",
+  "author": "konstantin ",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.0"
-  }
+  },
+  "keywords": [
+    "bar",
+    "baz",
+    "foo"
+  ]
 }
