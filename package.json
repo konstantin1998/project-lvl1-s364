@@ -1,6 +1,6 @@
 {
   "name": "konstantin_first_js",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "description": "my first project on hexlet",
   "main": "dist/index.js",
   "scripts": {
