@@ -1,6 +1,6 @@
 {
   "name": "konstantin_first_js",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "description": "my first project on hexlet",
   "main": "dist/index.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "prepublishOnly": "npm run build"
   },
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "welcome": "dist/bin/binary.js" 
   },
   "files": [
     "dist"
@@ -27,5 +28,8 @@
     "bar",
     "baz",
     "foo"
-  ]
+  ],
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
 }
