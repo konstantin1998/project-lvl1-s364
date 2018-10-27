@@ -1,35 +1,38 @@
 {
-  "name": "konstantin_first_js",
-  "version": "1.0.13",
-  "description": "my first project on hexlet",
-  "main": "dist/index.js",
-  "scripts": {
-    "babel-node": "babel-node",
-    "test": "console.log('brain-games')",
-    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-    "prepublishOnly": "npm run build"
-  },
-  "bin": {
-    "brain-games": "dist/bin/brain-games.js",
-     
-  },
-  "files": [
-    "dist"
-  ],
-  "author": "konstantin ",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/cli": "^7.1.0",
-    "@babel/core": "^7.1.0",
-    "@babel/node": "^7.0.0",
-    "@babel/preset-env": "^7.1.0"
-  },
-  "keywords": [
-    "bar",
-    "baz",
-    "foo"
-  ],
-  "dependencies": {
-    "readline-sync": "^1.4.9"
-  }
+	"name": "konstantin_first_js",
+	"version": "1.0.13",
+	"description": "my first project on hexlet",
+	"scripts": {
+		"babel-node": "babel-node",
+		"test": "console.log('brain-games')",
+		"build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+		"prepublishOnly": "npm run build"
+	},
+	"bin": {
+		"brain-games": "dist/bin/brain-games.js"
+	},
+	"files": [
+		"dist"
+	],
+	"author": "konstantin ",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.1.0",
+		"@babel/core": "^7.1.0",
+		"@babel/node": "^7.0.0",
+		"@babel/preset-env": "^7.1.0"
+	},
+	"keywords": [
+		"bar",
+		"baz",
+		"foo"
+	],
+	"dependencies": {
+		"babel-eslint": "^10.0.1",
+		"eslint-config-airbnb-base": "^13.1.0",
+		"eslint-plugin-import": "^2.14.0",
+		"flowtype": "^2.0.0",
+		"jest": "^23.6.0",
+		"readline-sync": "^1.4.9"
+	}
 }

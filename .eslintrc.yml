@@ -1,0 +1,21 @@
+
+{
+    plugins:
+        - jest
+        - flowtype
+        - babe
+    env:
+        browser: true
+        node: true
+
+    parser: babel-eslint
+
+    rules:
+        no-console: 0
+
+    extends:
+        - 'airbnb-base'
+        - 'plu gin:jest/recommended'
+        - 'plugin:flowtype/recommended'
+        - 'plugin:lodash-fp/recommended'
+}
